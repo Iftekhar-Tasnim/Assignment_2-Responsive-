@@ -29,9 +29,9 @@ body {
     display: flex;
  }
 
- .btn-primary{
-    max-width: 197px;
-    max-height: 50px;
+ .btn_orange{
+    min-width: 197px;
+    min-height: 50px;
     font-size: 1.3rem;
     font-weight: 600;
     background: orange;
@@ -43,7 +43,28 @@ body {
     transition: all 0.3s ease;
  }
 
- .btn-primary:hover{
+ .btn_orange:hover{
+    background-color: #ff6600;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05);
+    color: #fff;
+ }
+
+ .btn_black{
+    min-width: 197px;
+    min-height: 50px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: black;
+    color: white;
+    
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+
+ .btn_black:hover{
     background-color: #ff6600;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
     transform: scale(1.05);
@@ -93,3 +114,33 @@ body {
 }
 
 /* Nav Done --------------------------------------- */
+
+/* Hero ------------------------- */
+
+.hero  {
+    height: 576px;
+    /* border: 2px solid skyblue; */
+}
+
+.hero-text{
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-right:50px ;
+}
+
+.hero_title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#empower{
+    color: orange;
+}
+#t_vision{
+    color: skyblue;
+}
+
+.hero_description{
+    font-size: 1.2rem;
+}
