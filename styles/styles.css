@@ -287,15 +287,14 @@ body {
     margin-bottom: 80px;
 }
 
-.story_card0{
+.story_card0 {
+    display: block;
     width: 540px ;
     height: 630px;
     border-radius: 16px;
     background-color: white;
     /* border: 2px solid slateblue; */
 }
-
-
 
 .story_content{
     display: flex;
@@ -318,21 +317,22 @@ body {
 .story_cards{
     margin-left: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     
 }
 
 .story_card{
     /* border: 2px solid darkcyan; */
-    height: 301px;
-    width: 290px;
+    /* height: 301px;
+    width: 290px; */
     border-radius: 16px;
     background-color: white;
 }
 
 .story_card img{
     border-radius: 16px 16px 0 0;
+    width: 100%;
 }
 
 .story_title{
@@ -448,7 +448,45 @@ body {
         display: none;
       }
 
+/* Our stories --------------------------- */
 
-      
+    .our_stories{
+        margin-top: 0;
+        
+    }
+    .our_stories h5{
+        font-size: 26px;
+        
+    }
+
+    .our_story{
+        padding-top: 0;
+        padding-right: 20px ;
+    }
+
+    .story_card0{
+        display: none;
+      }
+
+      .story_cards{
+        max-width: 100%vw;
+        
+         
+        }
+
+        .card_btn{
+            width: 100px;
+            height: 22px;
+            font-size: 9px;  
+            align-self: auto; 
+        }
+
+        .btn_position{
+            margin-top: -20px;
+        }
+        .story_title{
+            font-size: 9.5px;
+            text-align: center;
+        }
+
 }    
-
