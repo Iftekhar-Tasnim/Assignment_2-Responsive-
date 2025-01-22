@@ -364,6 +364,92 @@ body {
     align-items: center;
 }
 
+
+
+/* Footer-------------------- */
+
+.footer{
+    background-color: #01ACFD;
+}
+
+.footer_section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: auto;
+    justify-items: center;
+}
+
+.footer_logo h3{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.footer_logo img{
+    min-width: 82px;
+
+}
+
+.info p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.about_school{
+    color: white;
+}
+
+.about_school h3{
+    font-size: 24px;
+    text-align: left;
+}
+.about_school ul{
+    list-style: none;
+    
+}
+
+
+
+.about_school li{
+    font-size: 20px;
+    
+}
+
+.about_text{
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: -40px;
+}
+
+.keep{
+    color: white;
+}
+
+.foot_img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.foot_img img:hover {
+    transform: scale(1.2);
+}
+
+.marquee_footer{
+    background-color: #95B226;
+    max-height: 30px;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-content: center;
+}
+
+
 /* Mobile Responsive for 576px ------------------*/
 
 @media screen and (max-width:576px) {
@@ -489,4 +575,14 @@ body {
             text-align: center;
         }
 
+
+        /* Footer ---------------- */
+        .footer_section{
+            grid-template-columns: repeat(1,1fr);
+            
+            justify-items: left;
+
+            padding-left: 20px;
+            padding-right: 20px;
+        }
 }    
